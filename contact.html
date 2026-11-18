@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="sa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>संपर्क करें</h1>
+
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./shlok.html">Shlok Sangrah</a>
+        <a href="./vyakaran.html">Vyakaran</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+
+    <h2>हमसे संपर्क करें</h2>
+
+    <p>यदि आपके कोई प्रश्न या सुझाव हैं, तो नीचे फॉर्म भरें।</p>
+
+    <form id="contactForm">
+
+        <label for="name">Your Name:</label>
+        <br><br>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <br><br>
+
+        <label for="email">Your Email:</label>
+        <br><br>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <br><br>
+
+        <label for="message">Your Message:</label>
+        <br><br>
+        <textarea id="message" placeholder="Write your message" required></textarea>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <p id="response"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
